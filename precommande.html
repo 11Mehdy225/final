@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <!--lien boxicons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+     <!--lien fontawesome-->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome-iconpicker/3.2.0/js/fontawesome-iconpicker.min.js">
+   <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=", initial-scale=1.0">
+    <title>certification Fond web</title>
+</head>
+<body class="bg">
+    <!--une div avec 3 enfant que sont le brand le formulaire marketing et le ballon off-->
+    <div class="pre">
+        <!--le brand -->
+        <div class="brand" id="brand-id">
+            <img src="brand-Copie_-_Copie-removebg-preview.png" width=500px height=500px alt="">
+        </div>
+        <!--le formulaire-->
+        <div class="form" id="form-id">
+            <form>
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required><br><br>
+                
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required><br><br>
+                
+                <label for="telephone">Numéro de téléphone :</label>
+                <input type="tel" id="telephone" name="telephone" required><br><br>
+                
+                <label for="equipe">Équipe :</label>
+                <input type="text" id="equipe" name="equipe" required><br><br>
+                
+                <input type="submit" value="Soumettre"onclick="showAlert(), redirectToHomepage();"> 
+              </form>
+              
+        </div>
+        <!--le ballon-->
+        <div class="ballonoff" id="ballonoff-id" >
+            <img src="pokou_ballon-removebg-preview.png"  width="300px" height="200px"  alt="">
+        </div>
+
+
+
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
